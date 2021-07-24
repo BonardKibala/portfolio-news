@@ -1,13 +1,13 @@
 import styled from 'styled-components';
-import {NavLink as Link} from 'react-router-dom';
 
 export const HomeContainer = styled.div`
-width: 100vw;
+width: 100%;
 height: 86.2vh;
 display: flex;
 flex-direction: row;
 justify-content: center;
 background-color : #f1f0f3;
+color: #010606;
 `
 export const HomeDetailContainer = styled.div`
 width: 45%;
@@ -86,3 +86,26 @@ font-weight:bold;
 font-size: 1.2rem;
 color:black;
 `;
+
+export const Btn = styled.nav`
+display: flex;
+align-items: center;
+margin : 0 auto;
+`
+export const BtnLink = styled.a`
+border-radius: 4px;
+background : #256ce1;
+padding: 10px 22px;
+color: #fff;
+border : none;
+outline: none;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+
+&:hover{
+    transition: all 0.2s ease-in-out;
+    background : #000;
+    color: #fff;
+}
+`
