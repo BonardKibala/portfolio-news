@@ -39,7 +39,7 @@ const About = () => {
             </DescriptionParagraph>
             <DescriptionParagraph>
                 Avez-vous des projets personnels ou d'entreprise à numériser (réaliser) ??, faites-moi confiance. Je
-                travaille en <strong style={{color:'#b00000'}}>temps plein</strong> et aussi comme <strong style={{color:'#b00000'}}>freelance</strong> pour la realisation de vos projets. prêt à vous satisfaire 
+                travaille en <strong style={{color:'#b00000'}}>temps plein</strong> et aussi comme <strong style={{color:'#b00000'}}>freelance</strong> pour la réalisation de vos projets. prêt à vous satisfaire 
                 et à vous fournir un travail digne de ce nom.
             </DescriptionParagraph>
           </DetailContent>

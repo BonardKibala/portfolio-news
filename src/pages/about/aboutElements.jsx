@@ -54,11 +54,8 @@ margin: 0 .6rem 0 0.6rem;
 word-break: break-all;
 line-height: 1.4;
 `
-
-export const H1 = styled.h1`
-font-size: 1.2rem;
-word-break: break-all;
-font-weight : bold;
+export const Contacts = styled.div`
+width: 100%;
 `
 
 export const ImageContainer = styled.div`
