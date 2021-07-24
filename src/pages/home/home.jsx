@@ -1,6 +1,6 @@
 import React from 'react'
 import bnrd from '../../images/bnrd.png'
-import {Homecard, HomecardContainer, HomeContainer, HomeDetailContainer,CardText,HomeCardImage,H1CardText, HomeDetail} from './homeElements'
+import {Homecard, HomecardContainer, HomeContainer,Description,HomeDetailContainer,CardText,HomeCardImage,H1CardText, HomeDetail,Grade, Paragraph} from './homeElements'
 
 const Home = ()=>{
 
@@ -8,7 +8,16 @@ const Home = ()=>{
         <HomeContainer>
            <HomeDetailContainer>
               <HomeDetail>
+                  <Grade>
                   Devéloppeur Full Stack
+                  </Grade>
+                  <Description>
+                      <Paragraph>
+                          hfdjfffffffffffffffffffffffffdjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+                          skdsjdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+                          sdlssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                      </Paragraph>
+                  </Description>
               </HomeDetail>
            </HomeDetailContainer>
 

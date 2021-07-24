@@ -22,14 +22,31 @@ export const HomeDetail =styled.div`
 height: 90%;
 width: 98%;
 border: 1px solid black;
+display: flex;
+flex-direction: column;
+justify-content: center;
 margin: 0 auto;
 `
 export const Grade =styled.div`
-height: 90%;
 width: 98%;
 border: 1px solid black;
 margin: 0 auto;
+font-weight : bold;
+font-size: 2rem;
+color : black;
 `
+export const Description =styled.div`
+width: 98%;
+border: 1px solid black;
+margin: 0 auto;
+color : black;
+text-align: left;
+`
+export const Paragraph = styled.p`
+word-break: break-all;
+margin:.5rem;
+`
+
 export const HomecardContainer = styled.div`
 width: 45%;
 height: 100%;
