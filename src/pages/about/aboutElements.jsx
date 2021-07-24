@@ -7,6 +7,7 @@ display flex;
 flex-direction: column;
 justify-content: space-evenly;
 font-family: "Roboto", sans-serif;
+
 `
 export const AboutTitle = styled.div`
 margin: 0 auto;
@@ -35,11 +36,10 @@ margin-top: 1.5rem;
 `
 export const DetailContainer = styled.div`
 width: 45%;
-border : 2px solid white;
+border : 1px solid white;
+border-radius: 20px;
 `
-export const DetailContent = styled.div`
-width: 98%;
-`
+
 export const Hello = styled.p`
 font-size: 1.5rem;
 font-style: italic;
@@ -55,7 +55,10 @@ word-break: break-all;
 line-height: 1.4;
 `
 export const Contacts = styled.div`
-width: 100%;
+padding-top: 1rem;
+display: flex;
+justify-content: center;
+text-align: justify;
 `
 
 export const ImageContainer = styled.div`

@@ -1,6 +1,7 @@
 import React from "react";
 import bg from "../../images/bg1.jpg";
-import { DetailContent } from "../home/homeElements";
+import { Btn, BtnLink, DetailContent } from "../home/homeElements";
+import cv from "../../files/kibala-bonard-Cv.pdf"
 import {
   AboutContainer,
   AboutContent,
@@ -13,7 +14,12 @@ import {
   Image,
   Hello,
   DescriptionParagraph,
+  Contacts,
 } from "./aboutElements";
+import FacebookIcon from '@material-ui/icons/Facebook';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import {Link} from 'react-router-dom';
 
 const About = () => {
   return (
@@ -42,6 +48,23 @@ const About = () => {
                 travaille en <strong style={{color:'#b00000'}}>temps plein</strong> et aussi comme <strong style={{color:'#b00000'}}>freelance</strong> pour la réalisation de vos projets. prêt à vous satisfaire 
                 et à vous fournir un travail digne de ce nom.
             </DescriptionParagraph>
+            <Contacts>
+                <Link to="/" style={{color:'white'}}>
+                <FacebookIcon/>
+                </Link>
+                <Link to="/" style={{color:'white'}}>
+                <TwitterIcon/>
+                </Link>
+                <Link to="/" style={{color:'white'}}>
+                <LinkedInIcon/>
+                </Link>
+                <Link to="/" style={{color:'white'}}>
+                <LinkedInIcon/>
+                </Link>
+            </Contacts>
+            <Btn style={{marginLeft:'38%',marginTop:'.8rem',}}>
+              <BtnLink href={`${cv}`}>Voir mon CV</BtnLink>
+            </Btn>
           </DetailContent>
         </DetailContainer>
       </AboutContent>
