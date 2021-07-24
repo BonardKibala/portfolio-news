@@ -7,11 +7,11 @@ height: 86.2vh;
 display: flex;
 flex-direction: row;
 justify-content: center;
+background-color : #f1f0f3;
 `
 export const HomeDetailContainer = styled.div`
 width: 45%;
 height: 100%;
-border: 2px solid red;
 text-align: center;
 display: flex;
 flex-direction: column;
@@ -19,32 +19,40 @@ justify-content: center;
 font-family: 'Roboto', sans-serif;
 `
 export const HomeDetail =styled.div`
-height: 90%;
-width: 98%;
-border: 1px solid black;
+height: 80%;
+width: 100%;
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: space-evenly;
 margin: 0 auto;
+`
+export const DetailContent = styled.div`
+width: 100%;
 `
 export const Grade =styled.div`
 width: 98%;
-border: 1px solid black;
+border-top: 4px solid  #15cdfc;
+border-bottom: 4px solid  #15cdfc;
+border-right: 4px solid black;
+border-left: 4px solid black;
 margin: 0 auto;
 font-weight : bold;
-font-size: 2rem;
+font-size: 1.5rem;
 color : black;
+border-radius : 2rem;
 `
 export const Description =styled.div`
-width: 98%;
-border: 1px solid black;
+width: 100%;
 margin: 0 auto;
 color : black;
 text-align: left;
+justify-content: justify;
 `
 export const Paragraph = styled.p`
 word-break: break-all;
-margin:.5rem;
+margin:.6rem;
+line-height: 1.4;
+
 `
 
 export const HomecardContainer = styled.div`
