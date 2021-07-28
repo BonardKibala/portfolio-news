@@ -15,6 +15,7 @@ import {
   Hello,
   DescriptionParagraph,
   Contacts,
+  Btns,
 } from "./aboutElements";
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
@@ -62,9 +63,11 @@ const About = () => {
                 <LinkedInIcon/>
                 </Link>
             </Contacts>
-            <Btn style={{marginLeft:'38%',marginTop:'.8rem',}}>
+            <Btns>
+            <Btn>
               <BtnLink href={`${cv}`}>Voir mon CV</BtnLink>
             </Btn>
+            </Btns>
           </DetailContent>
         </DetailContainer>
       </AboutContent>

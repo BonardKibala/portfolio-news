@@ -4,10 +4,12 @@ import {FaBars} from 'react-icons/fa'
 
 export const Nav = styled.nav`
 background-color : #000;
+width: 100%;
 height: 80px;
 display: flex;
 justifyContent: space-between;
 padding : 0.5rem calc ((100vw-1000px)/2);
+position: fixed;
 z-index: 10;
 `
 export const NavLink = styled(Link)`

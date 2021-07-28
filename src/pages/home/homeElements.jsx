@@ -8,6 +8,16 @@ flex-direction: row;
 justify-content: center;
 background-color : #f1f0f3;
 color: #010606;
+padding-top: 5rem;
+
+@media screen and (max-width: 768px){
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
 `
 export const HomeDetailContainer = styled.div`
 width: 45%;
@@ -17,6 +27,11 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 font-family: 'Roboto', sans-serif;
+
+@media screen and (max-width: 768px){
+width: 95%;
+margin-bottom: 1.5rem;
+}
 `
 export const HomeDetail =styled.div`
 height: 80%;
@@ -57,12 +72,15 @@ line-height: 1.4;
 
 export const HomecardContainer = styled.div`
 width: 45%;
-height: 100%;
 text-align: center;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+@media screen and (max-width: 768px){
+    width: 95%;
+    height: 75vh;
+    }
 `
 export const Homecard =styled.div`
 height: 90%;
