@@ -8,13 +8,13 @@ const Navbar = () => {
         <NavLink to="/"><h1>Logo</h1></NavLink>
         <Bars/>
         <NavMenu>
-            <NavLink to="/home" activeStyle>Accueil</NavLink>
-            <NavLink to="/services" activeStyle>A propos</NavLink>
-            <NavLink to="/skills" activeStyle>Compétences</NavLink>
-            <NavLink to="/productions" activeStyle>Réalisations</NavLink>
-            <NavLink to="/contact" activeStyle>Contact</NavLink>
+            <NavLink activeClass="active" to="home" spy={true} smooth={true}>Accueil</NavLink>
+            <NavLink to="about" spy={true} smooth={true}>A propos</NavLink>
+            <NavLink to="" activeStyle>Compétences</NavLink>
+            <NavLink to="" activeStyle>Réalisations</NavLink>
+            <NavLink to="" activeStyle>Contact</NavLink>
             <Navbtn>
-            <NavBtnLink to="/signin">Sign in</NavBtnLink>
+            {/* <NavBtnLink to="/signin">Sign in</NavBtnLink> */}
            </Navbtn>
         </NavMenu>
         

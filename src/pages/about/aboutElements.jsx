@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.div`
+height:90vh;
 background-color: black;
 color : white;
 display flex;

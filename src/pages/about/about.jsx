@@ -24,7 +24,8 @@ import {Link} from 'react-router-dom';
 
 const About = () => {
   return (
-    <AboutContainer>
+    <div id="about">
+<AboutContainer>
       <AboutTitle>
         <Title>A propos de moi</Title>
         <Line />
@@ -72,6 +73,8 @@ const About = () => {
         </DetailContainer>
       </AboutContent>
     </AboutContainer>
+    </div>
+    
   );
 };
 export default About;

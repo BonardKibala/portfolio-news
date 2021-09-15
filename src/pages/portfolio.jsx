@@ -1,14 +1,12 @@
 import React from "react";
+import MiddleSection from "../components/middleSection";
 import Navbar from "../components/navbar";
-import About from "./about/about";
-import Home from "./home/home";
 
 const Portfolio = () => {
   return (
     <div>
       <Navbar />
-      <Home/>
-      <About/>
+      <MiddleSection/>
     </div>
   );
 };

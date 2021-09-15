@@ -20,7 +20,8 @@ import {
 
 const Home = () => {
   return (
-    <HomeContainer>
+    <div id="home">
+<HomeContainer>
       <HomeDetailContainer>
         <HomeDetail>
           <DetailContent>
@@ -83,6 +84,7 @@ const Home = () => {
         </CardText>
       </HomecardContainer>
     </HomeContainer>
+    </div>
   );
 };
 export default Home;
