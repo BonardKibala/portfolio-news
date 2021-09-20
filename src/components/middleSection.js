@@ -1,5 +1,6 @@
 import About from "../pages/about/about"
 import Home from "../pages/home/home"
+import Skills from "../pages/skills/skills"
 
 
 const MiddleSection = ()=>{
@@ -8,6 +9,7 @@ const MiddleSection = ()=>{
         <>
         <Home/>
         <About/>
+        <Skills/>
         </>
     )
 }

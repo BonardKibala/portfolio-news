@@ -23,7 +23,10 @@ height: 100%;
 cursor: pointer;
 
 &.active {
-color:#15cdfc;
+//color:#15cdfc;
+}
+&:hover{
+    color: red;
 }
 `
 export const Bars = styled(FaBars)`
@@ -42,9 +45,6 @@ color: #fff;
 export const NavMenu = styled.div`
 display: flex;
 align-items: center;
-
-
-
 @media screen and (max-width: 768px){
     display: none;
 }
