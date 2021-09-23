@@ -3,7 +3,7 @@ import { SkillsContainer, SkillsTitle, Title,Line, SkillsContent, Skill, SkillIm
 import {FaHtml5,FaCss3, FaSass,FaJs,FaReact,FaGithub,FaGit,FaNodeJs,FaNode} from 'react-icons/fa';
 import {DiMongodb} from 'react-icons/di'
 import {SiMysql,SiMicrosoftsqlserver,SiElectron,SiFlutter,SiGraphql,} from 'react-icons/si'
-import {FcNext,FcPhoneAndroid} from 'react-icons/fc'
+import {FcNext} from 'react-icons/fc'
 import {ReactSVG} from 'react-svg'
 import nestjs from '../../images/nestjs.svg'
 
@@ -87,26 +87,23 @@ Mes compétences
             <SkillName>NextJs</SkillName>
         </Skill>
         <Skill>
-        <SkillImage color='#06bcf4'><ReactSVG src={nestjs}/></SkillImage>
+        <SkillImage color='#06bcf4'></SkillImage>
             <SkillName>NestJs</SkillName>
         </Skill>
         <Skill>
-        <SkillImage color='#06bcf4'><img src = {nestjs}/></SkillImage>
+        <SkillImage color='#06bcf4'><ReactSVG src={nestjs}/></SkillImage>
             <SkillName>ExpressJs</SkillName>
         </Skill>
     </SkillsContent>
 
     <CircleSkills>
         <Circle color="black" hoverColor="black">
-            {/* <FcPhoneAndroid style={{fontSize:'2rem'}}/> */}
            <p>UI et UX Design</p>
         </Circle>
         <Circle color="blue" hoverColor="blue">
-            {/* <FcPhoneAndroid style={{fontSize:'2rem'}}/> */}
            <p>Developpement Web</p>
         </Circle>
         <Circle color="green" hoverColor="green">
-            {/* <FcPhoneAndroid style={{fontSize:'2rem'}}/> */}
            <p>Developpement Desktop</p>
         </Circle>
     </CircleSkills>
