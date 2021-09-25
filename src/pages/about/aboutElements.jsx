@@ -9,6 +9,10 @@ flex-direction: column;
 justify-content: space-evenly;
 font-family: "Roboto", sans-serif;
 padding-top: 4rem;
+@media screen and (max-width: 768px) {
+  height:auto;
+  padding-top: 2rem;
+}
 `;
 export const AboutTitle = styled.div`
 margin: 0 auto;
