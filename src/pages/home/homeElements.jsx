@@ -6,7 +6,7 @@ height: 100vh;
 display: flex;
 flex-direction: row;
 justify-content: center;
-background-color : #f1f0f3;
+background-color : white !important;
 color: #010606;
 padding-top: 5rem;
 
@@ -42,31 +42,47 @@ justify-content: space-evenly;
 margin: 0 auto;
 `
 export const DetailContent = styled.div`
+display:flex;
+flex-direction: column;
+justify-content: space-around;
 width: 100%;
+
+border: 1px solid black;
+border-radius: 10px;
+padding-bottom: 1rem;
+box-shadow: rgba(149, 157, 165, 0.2) 10px 8px 24px;
+
 `
 export const Grade =styled.div`
 width: 98%;
-border-top: 4px solid  #15cdfc;
-border-bottom: 4px solid  #15cdfc;
-border-right: 4px solid black;
-border-left: 4px solid black;
 margin: 0 auto;
 font-weight : bold;
-font-size: 1.5rem;
 color : black;
-border-radius : 2rem;
 `
+export const GradeH2 = styled.h2`
+font-size: 2.5rem;
+font-style: italic;
+font-family: 'Roboto', sans-serif;
+@media screen and (max-width: 768px){
+    font-size:2rem;
+}
+`;
 export const Description =styled.div`
 width: 100%;
 margin: 0 auto;
 color : black;
 text-align: left;
 justify-content: justify;
+margin-top: 1rem;
+font-family: monospace;
+word-break: break-all;
+
 `
 export const Paragraph = styled.p`
 word-break: break-all;
 margin:.6rem;
 line-height: 1.4;
+font-size: 1rem;
 
 `
 
@@ -101,7 +117,7 @@ padding-top: .6rem;
 `
 export const H1CardText = styled.h1`
 font-weight:bold;
-font-size: 1.2rem;
+font-size: 1.5rem;
 color:black;
 `;
 
@@ -109,6 +125,10 @@ export const Btn = styled.nav`
 display: flex;
 align-items: center;
 margin : 0 auto;
+margin-top: -6rem;
+@media screen and (max-width: 768px){
+    margin-top: 2.5rem;
+}
 `
 export const BtnLink = styled.a`
 border-radius: 4px;

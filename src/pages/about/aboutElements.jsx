@@ -55,7 +55,13 @@ export const DetailContainer = styled.div`
     margn: 0 auto;
     }
 `;
-
+export const Btn = styled.nav`
+display: flex;
+align-items: center;
+margin : 0 auto;
+// @media screen and (max-width: 768px){
+//     margin-top: 2.5rem;
+// }`;
 export const Hello = styled.p`
   font-size: 1.5rem;
   font-style: italic;

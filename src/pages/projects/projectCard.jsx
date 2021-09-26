@@ -7,7 +7,7 @@ import CardActions from "@mui/material/CardActions";
 import Avatar from "@mui/material/Avatar";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
-import { indigo } from "@mui/material/colors";
+import { red } from "@mui/material/colors";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import Link from '@mui/material/Link';
 import Button from '@mui/material/Button';
@@ -18,7 +18,7 @@ const ProjectCard = ({ title, image, createdAt, description }) => {
     <Card sx={{ maxWidth: 345 }}>
       <CardHeader
         avatar={
-          <Avatar sx={{ bgcolor: indigo[500] }} aria-label="recipe">
+          <Avatar sx={{ bgcolor: red[400] }} aria-label="recipe">
             BK
           </Avatar>
         }

@@ -1,6 +1,6 @@
 import React from "react";
 import bg from "../../images/bg1.jpg";
-import { Btn, BtnLink, DetailContent } from "../home/homeElements";
+import { BtnLink, DetailContent } from "../home/homeElements";
 import cv from "../../files/kibala-bonard-Cv.pdf"
 import {
   AboutContainer,
@@ -16,6 +16,7 @@ import {
   DescriptionParagraph,
   Contacts,
   Btns,
+  Btn,
 } from "./aboutElements";
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';

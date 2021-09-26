@@ -101,10 +101,10 @@ Mes compétences
            <p>UI et UX Design</p>
         </Circle>
         <Circle color="blue" hoverColor="blue">
-           <p>Developpement Web</p>
+           <p>Developpement Web, Mobile et Desktop</p>
         </Circle>
         <Circle color="green" hoverColor="green">
-           <p>Developpement Desktop</p>
+           <p>Gestion de projets (Scrum)</p>
         </Circle>
     </CircleSkills>
     </Content>
