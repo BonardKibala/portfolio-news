@@ -1,14 +1,10 @@
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
-import { Copyright, Footers } from "./footerElements.jsx";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import YouTubeIcon from "@material-ui/icons/YouTube";
+import { Copyright, Footers, Social } from "./footerElements.jsx";
 import FormDialog from "./formDialog";
 import Link from "@mui/material/Link";
+import {FaFacebookSquare,FaWhatsapp,FaLinkedinIn,FaGithubSquare} from 'react-icons/fa';
 
 const Footer = () => {
   const useStyles = makeStyles({
@@ -25,14 +21,14 @@ const Footer = () => {
     },
     link: {
       "&:hover": {
-        color: "white",
+        color: "red !important",
         cursor: "pointer",
       },
     },
     blue: {
       display: "flex",
       flexDirection: "column",
-      backgroundColor: "blue",
+      backgroundColor: "red",
       width: 8,
       height: 25,
     },
@@ -47,7 +43,7 @@ const Footer = () => {
   return (
     <Footers id="contact">
       <Grid container>
-        <Grid item xs={12} sm={3}>
+        {/* <Grid item xs={12} sm={3}>
           <div className={classes.root}>
             <div className={classes.blueTitle}>
               <div className={classes.blue}></div>
@@ -82,8 +78,8 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-        </Grid>
-        <Grid item xs={12} sm={3}>
+        </Grid> */}
+        <Grid item xs={12} sm={4}>
           <div className={classes.root}>
             <div className={classes.blueTitle}>
               <div className={classes.blue}></div>
@@ -97,24 +93,24 @@ const Footer = () => {
               </Typography>
             </div>
 
-            <Typography component="p" gutterBottom className={classes.link}>
+            <Typography component="p" gutterBottom>
               1. UI et UX Design
             </Typography>
-            <Typography component="p" gutterBottom className={classes.link}>
+            <Typography component="p" gutterBottom>
               2. Développement Web et Web Mobile
             </Typography>
-            <Typography component="p" gutterBottom className={classes.link}>
+            <Typography component="p" gutterBottom>
               3. Développement Mobile
             </Typography>
-            <Typography component="p" gutterBottom className={classes.link}>
+            <Typography component="p" gutterBottom>
               4. Développement Desktop
             </Typography>
-            <Typography component="p" gutterBottom className={classes.link}>
+            <Typography component="p" gutterBottom>
               5. Outils de gestion de projet (<strong style={{color:"blue"}}>Scrum</strong>)
             </Typography>
           </div>
         </Grid>
-        <Grid item xs={12} sm={3}>
+        <Grid item xs={12} sm={4}>
           <div className={classes.root}>
             <div className={classes.blueTitle}>
               <div className={classes.blue}></div>
@@ -132,12 +128,18 @@ const Footer = () => {
               KDA, Ngaliema - Kinshasa
             </Typography>
             <Typography component="address" gutterBottom>
-            <Link href="tel:+243 81 909 71 77" style={{color:"white"}} underline="none">Tel : +243 81 909 71 77</Link>   <br></br> 
+            <Link href="tel:+243819097177" style={{color:"white"}} underline="none">Tel : +243 81 909 71 77</Link>   <br></br> 
             <Link href="mail:kibalabonard1@gmail.com" style={{color:"white"}} underline="none">Mail : kibalabonard1@gmail.com</Link>
             </Typography>
+            <Social>
+              <Link href='https://web.facebook.com/bonard.kibala' style={{marginRight:'10px'}}><FaFacebookSquare style={{color:'white', fontSize:'1.7rem',}}/></Link>
+              <Link href='tel:+243819097177' style={{marginRight:'10px'}}><FaWhatsapp style={{color:'green', fontSize:'1.7rem',}}/></Link>
+              <Link href='https://www.linkedin.com/in/bonard-kibala-422a761ba/' style={{marginRight:'10px'}}><FaLinkedinIn style={{color:'white', fontSize:'1.7rem',}}/></Link>
+              <Link href='https://github.com/BonardKibala' style={{marginRight:'10px'}}><FaGithubSquare style={{color:'white', fontSize:'1.7rem'}}/></Link>
+            </Social>
           </div>
         </Grid>
-        <Grid item xs={12} sm={3}>
+        <Grid item xs={12} sm={4}>
           <div className={classes.root}>
             <div className={classes.blueTitle}>
               <div className={classes.blue}></div>

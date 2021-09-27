@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Link from "@mui/material/Link";
 
 export const Footers = styled.div`
 background-color: black !important;
@@ -12,6 +13,14 @@ text-align: center !important;
 
 export const Input = styled.input`
 &::placeholder {
-    color : green
+    color : green;
 }
-`
+`;
+
+export const Social = styled.div`
+  
+}
+`;
+export const SocialLink = styled(Link)`
+
+`;
