@@ -23,10 +23,10 @@ height: 100%;
 cursor: pointer;
 
 &.active {
-//color:#15cdfc;
+color:#15cdfc;
 }
 &:hover{
-    color: red;
+    color: #15cdfc;
 }
 `
 export const Bars = styled(FaBars)`

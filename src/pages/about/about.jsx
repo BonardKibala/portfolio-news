@@ -18,10 +18,8 @@ import {
   Btns,
   Btn,
 } from "./aboutElements";
-import FacebookIcon from '@material-ui/icons/Facebook';
-import TwitterIcon from '@material-ui/icons/Twitter';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import {Link} from 'react-router-dom';
+import Link from "@mui/material/Link";
+import {FaFacebookSquare,FaWhatsapp,FaLinkedinIn,FaGithubSquare} from 'react-icons/fa';
 
 const About = () => {
   return (
@@ -52,18 +50,10 @@ const About = () => {
                 et à vous fournir un travail digne de ce nom.
             </DescriptionParagraph>
             <Contacts>
-                <Link to="/" style={{color:'white'}}>
-                <FacebookIcon/>
-                </Link>
-                <Link to="/" style={{color:'white'}}>
-                <TwitterIcon/>
-                </Link>
-                <Link to="/" style={{color:'white'}}>
-                <LinkedInIcon/>
-                </Link>
-                <Link to="/" style={{color:'white'}}>
-                <LinkedInIcon/>
-                </Link>
+            <Link href='https://web.facebook.com/bonard.kibala' style={{marginRight:'10px'}}><FaFacebookSquare style={{color:'white', fontSize:'1.7rem',}}/></Link>
+              <Link href='tel:+243819097177' style={{marginRight:'10px'}}><FaWhatsapp style={{color:'green', fontSize:'1.7rem',}}/></Link>
+              <Link href='https://www.linkedin.com/in/bonard-kibala-422a761ba/' style={{marginRight:'10px'}}><FaLinkedinIn style={{color:'white', fontSize:'1.7rem',}}/></Link>
+              <Link href='https://github.com/BonardKibala' style={{marginRight:'10px'}}><FaGithubSquare style={{color:'white', fontSize:'1.7rem'}}/></Link>
             </Contacts>
             <Btns>
             <Btn>

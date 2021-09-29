@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect,useRef} from "react";
 import bnrd from "../../images/bnrd.png";
 import cv from "../../files/kibala-bonard-Cv.pdf"
 import {
@@ -20,20 +20,23 @@ import {
 } from "./homeElements";
 
 const Home = () => {
+
   return (
     <div id="home">
 <HomeContainer>
       <HomeDetailContainer>
         <HomeDetail>
-          <DetailContent>
-            <Grade><GradeH2>Devéloppeur Full Stack</GradeH2></Grade>
-            
+            <div>
+            <DetailContent>
+            <Grade><GradeH2 >Devéloppeur Full Stack</GradeH2></Grade>
             <Description>
               <Paragraph>
                Expert en devéloppement logiciel dont les applications web, Web Mobile, Mobile et Desktop.
               </Paragraph>
             </Description>
           </DetailContent>
+            </div>
+         
 
             <Btn>
               <BtnLink href={`${cv}`}>Voir mon CV</BtnLink>
