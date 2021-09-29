@@ -1,4 +1,4 @@
-import React, {useEffect,useRef} from "react";
+import React from "react";
 import bnrd from "../../images/bnrd.png";
 import cv from "../../files/kibala-bonard-Cv.pdf"
 import {
@@ -36,7 +36,6 @@ const Home = () => {
             </Description>
           </DetailContent>
             </div>
-         
 
             <Btn>
               <BtnLink href={`${cv}`}>Voir mon CV</BtnLink>
