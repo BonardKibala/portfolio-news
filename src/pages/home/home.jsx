@@ -1,6 +1,6 @@
 import React from "react";
 import bnrd from "../../images/bnrd.png";
-import cv from "../../files/kibala-bonard-Cv.pdf"
+import cv from "../../files/kibala-bonard-Cv.pdf";
 import {
   Homecard,
   HomecardContainer,
@@ -20,38 +20,40 @@ import {
 } from "./homeElements";
 
 const Home = () => {
-
   return (
     <div id="home">
-<HomeContainer>
-      <HomeDetailContainer>
-        <HomeDetail>
+      <HomeContainer>
+        <HomeDetailContainer>
+          <HomeDetail>
             <div>
-            <DetailContent>
-            <Grade><GradeH2 >Devéloppeur Full Stack</GradeH2></Grade>
-            <Description>
-              <Paragraph>
-               Expert en devéloppement logiciel dont les applications web, Web Mobile, Mobile et Desktop.
-              </Paragraph>
-            </Description>
-          </DetailContent>
+              <DetailContent>
+                <Grade>
+                  <GradeH2>Devéloppeur Full Stack</GradeH2>
+                </Grade>
+                <Description>
+                  <Paragraph>
+                    Expert en devéloppement logiciel dont les applications web,
+                    Web Mobile, Mobile et Desktop.
+                  </Paragraph>
+                </Description>
+              </DetailContent>
             </div>
 
             <Btn>
               <BtnLink href={`${cv}`}>Voir mon CV</BtnLink>
             </Btn>
-        </HomeDetail>
-      </HomeDetailContainer>
+          </HomeDetail>
+        </HomeDetailContainer>
 
-      <HomecardContainer>
-        <Homecard>
-          <HomeCardImage src={bnrd} alt="bonard image" />
-        </Homecard>
-        <CardText>
-          <H1CardText> Bonard Kibala Inkumbwa</H1CardText>
-        </CardText>
-      </HomecardContainer>
-    </HomeContainer>
+        <HomecardContainer>
+          <Homecard>
+            <HomeCardImage src={bnrd} alt="bonard image" />
+          </Homecard>
+          <CardText>
+            <H1CardText> Bonard Kibala Inkumbwa</H1CardText>
+          </CardText>
+        </HomecardContainer>
+      </HomeContainer>
     </div>
   );
 };

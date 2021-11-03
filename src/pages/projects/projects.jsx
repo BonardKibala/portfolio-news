@@ -18,6 +18,7 @@ const projectsTab = [
     createdAt: "mars 14, 2021",
     description:
       "Ce projet consistait à la réprodution du site internet de l'entreprise numérique basé à Kinshasa, Kinshasa Digital. Un grand projet qui m'a vallu la satisfaction du client.",
+    lien: "https://confident-feynman-185740.netlify.app/",
   },
   {
     title: "BisoFilm (Allociné)",
@@ -25,6 +26,7 @@ const projectsTab = [
     createdAt: "mars 14, 2021",
     description:
       "This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.",
+    lien: "https://bonard-kibala-allocine.netlify.app/",
   },
   {
     title: "Site web Environews",
@@ -32,6 +34,7 @@ const projectsTab = [
     createdAt: "mars 14, 2021",
     description:
       "This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.",
+    lien: "#",
   },
   {
     title: "Portofolio Bonard Kibala",
@@ -39,6 +42,7 @@ const projectsTab = [
     createdAt: "mars 14, 2021",
     description:
       "This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.",
+    lien: "https://bonard-portofolio.netlify.app/",
   },
   {
     title: "Gestion de la population",
@@ -46,6 +50,7 @@ const projectsTab = [
     createdAt: "mars 14, 2021",
     description:
       "This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.",
+    lien: "#",
   },
   {
     title: "Portofolio Bonard Kibala",
@@ -53,6 +58,7 @@ const projectsTab = [
     createdAt: "mars 14, 2021",
     description:
       "This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.",
+    lien: "https://bonard-portofolio.netlify.app/",
   },
 ];
 
