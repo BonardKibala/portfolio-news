@@ -55,3 +55,22 @@ margin-left:55rem;
 }
 
 `
+
+export const DrawerBloc = styled.div`
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding-top: 3rem;
+
+`
+export const NavLinkDrawer = styled(Link)`
+font-size: 1.1rem;
+color: white !important;
+padding-bottom: 1.1rem;
+text-align:center;
+cursor:pointer;
+width: 100%;
+border-bottom: 1px grey solid;
+text-align: justify;
+`

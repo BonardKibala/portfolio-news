@@ -4,8 +4,9 @@ import MenuItem from "@mui/material/MenuItem";
 import Fade from "@mui/material/Fade";
 import IconButton from "@mui/material/IconButton";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
+import Link from "@mui/material/Link";
 
-const FadeMenu = () => {
+const FadeMenu = ({lien}) => {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
@@ -36,7 +37,7 @@ const FadeMenu = () => {
         onClose={handleClose}
         TransitionComponent={Fade}
       >
-        <MenuItem onClick={handleClose}>Visiter</MenuItem>
+        <Link href={lien} underline='none'><MenuItem onClick={handleClose}>Visiter</MenuItem></Link>
       </Menu>
     </div>
   );

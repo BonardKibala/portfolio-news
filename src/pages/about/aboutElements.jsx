@@ -73,8 +73,8 @@ export const DescriptionParagraph = styled.p`
   font-size: 1.1rem;
   padding-top: 1rem;
   margin: 0 0.6rem 0 0.6rem;
-  word-break: break-all;
   line-height: 1.4;
+  text-align: 'justify';
 `;
 export const Contacts = styled.div`
   padding-top: 1rem;

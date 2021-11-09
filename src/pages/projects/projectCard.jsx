@@ -20,7 +20,7 @@ const ProjectCard = ({ title, image, createdAt, description, lien }) => {
             BK
           </Avatar>
         }
-        action={<FadeMenu />}
+        action={<FadeMenu lien={lien} />}
         title={<h4>{title}</h4>}
         subheader={createdAt}
       />
@@ -28,10 +28,14 @@ const ProjectCard = ({ title, image, createdAt, description, lien }) => {
         component="img"
         height="194"
         image={image}
-        alt="kinshasa digital"
+        alt="bonard kibala"
       />
       <CardContent>
-        <Typography variant="body2" color="text.primary">
+        <Typography
+          variant="body2"
+          color="text.primary"
+          sx={{ textAlign: "justify" }}
+        >
           {description}
         </Typography>
       </CardContent>

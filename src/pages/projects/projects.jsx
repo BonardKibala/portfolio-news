@@ -25,7 +25,7 @@ const projectsTab = [
     image: bisofilm,
     createdAt: "mars 14, 2021",
     description:
-      "This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.",
+      "BisoFilm est le clone d'un site Allociné dont l'onbject est de mettre à la disposition du public tous les films qui les interréssent, leurs détails, les acteurs ainsi que leurs biographies.",
     lien: "https://bonard-kibala-allocine.netlify.app/",
   },
   {
@@ -33,15 +33,15 @@ const projectsTab = [
     image: env,
     createdAt: "mars 14, 2021",
     description:
-      "This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.",
-    lien: "#",
+      "Ce projet a consisté de mettre en place le nouveau site internet d'environews (un site de mise en ligne du contenu environnemental) pour assurer de plus en plus le trafic sur internet",
+    lien: "https://a1environewsfinal.herokuapp.com/",
   },
   {
     title: "Portofolio Bonard Kibala",
     image: portfolio,
     createdAt: "mars 14, 2021",
     description:
-      "This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.",
+      "C'est mon site personnel(portfolio ou site vitrine) exposé sur la toile mondiale (Internet) pour faire part de mes compétences (hardskills et softskills) et réalisations",
     lien: "https://bonard-portofolio.netlify.app/",
   },
   {
@@ -49,7 +49,7 @@ const projectsTab = [
     image: rec,
     createdAt: "mars 14, 2021",
     description:
-      "This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.",
+      "Cette application a été réalisé dans le cadre de mon travail de Fin du cycle de graduat à l'université de kinshasa au département de mathématiques et informatioque/faulté de sciences.",
     lien: "#",
   },
   {
@@ -57,7 +57,7 @@ const projectsTab = [
     image: portfolio,
     createdAt: "mars 14, 2021",
     description:
-      "This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.",
+      "C'est mon site personnel(portfolio ou site vitrine) exposé sur la toile mondiale (Internet) pour faire part de mes compétences (hardskills et softskills) et réalisations",
     lien: "https://bonard-portofolio.netlify.app/",
   },
 ];
