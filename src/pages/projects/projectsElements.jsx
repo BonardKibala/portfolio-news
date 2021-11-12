@@ -8,7 +8,7 @@ background-color: white !important;
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
-padding-top: 1rem;
+padding-top: 7rem;
 padding-bottom:2rem;
 @media screen and (max-width: 768px) {
     height:auto;
