@@ -77,7 +77,12 @@ export const Skill = styled.div`
   cursor: pointer;
   @media screen and (max-width: 768px) {
     width: 15%;
+  };
+  &:hover{
+    transform: translate(5px, 0px);
+    cursor:pointer;
   }
+
 `;
 export const SkillImage = styled.div`
   font-size: 5rem;
