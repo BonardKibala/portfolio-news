@@ -6,6 +6,11 @@ background-color: black !important;
 color: white !important;
 padding: 2em 4.5em 2em 4.5em !important;
 font-family: "Roboto", sans-serif;
+
+@media screen and (max-width: 768px) {
+    height:auto;
+    padding-top: 6rem !important;
+  }
 `
 export const Copyright = styled.div`
 text-align: center !important;

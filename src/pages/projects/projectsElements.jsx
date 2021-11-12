@@ -10,7 +10,10 @@ flex-direction: column;
 justify-content: space-evenly;
 padding-top: 1rem;
 padding-bottom:2rem;
-// color:white !important;
+@media screen and (max-width: 768px) {
+    height:auto;
+    padding-top: 7rem;
+  }
 `;
 
 export const ProjectContent = styled.div`

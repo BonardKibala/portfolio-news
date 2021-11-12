@@ -11,7 +11,7 @@ font-family: "Roboto", sans-serif;
 padding-top: 4rem;
 @media screen and (max-width: 768px) {
   height:auto;
-  padding-top: 2rem;
+  padding-top: 7rem;
 }
 `;
 export const AboutTitle = styled.div`
