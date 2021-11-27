@@ -2,10 +2,8 @@ import React from 'react';
 import { SkillsContainer, SkillsTitle, Title,Line, SkillsContent, Skill, SkillImage, SkillName, Content, CircleSkills, Circle } from './skillsElement';
 import {FaHtml5,FaCss3, FaSass,FaJs,FaReact,FaGithub,FaGit,FaNodeJs, FaWordpress} from 'react-icons/fa';
 import {DiMongodb} from 'react-icons/di'
-import {SiMysql,SiMicrosoftsqlserver,SiFlutter,SiGraphql,SiNestjs} from 'react-icons/si'
+import {SiMysql,SiMicrosoftsqlserver,SiFlutter,SiGraphql,SiNestjs, SiExpress} from 'react-icons/si'
 import {FcNext} from 'react-icons/fc'
-import {ReactSVG} from 'react-svg'
-import nestjs from '../../images/nestjs.svg'
 
 const Skills = ()=>{
 
@@ -91,7 +89,7 @@ Mes compétences
             <SkillName>NestJs</SkillName>
         </Skill>
         <Skill>
-        <SkillImage color='#06bcf4'><ReactSVG src={nestjs}/></SkillImage>
+        <SkillImage color='white'><SiExpress/></SkillImage>
             <SkillName>ExpressJs</SkillName>
         </Skill>
     </SkillsContent>
