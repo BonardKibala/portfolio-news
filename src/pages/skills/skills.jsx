@@ -1,8 +1,8 @@
 import React from 'react';
 import { SkillsContainer, SkillsTitle, Title,Line, SkillsContent, Skill, SkillImage, SkillName, Content, CircleSkills, Circle } from './skillsElement';
-import {FaHtml5,FaCss3, FaSass,FaJs,FaReact,FaGithub,FaGit,FaNodeJs,FaNode} from 'react-icons/fa';
+import {FaHtml5,FaCss3, FaSass,FaJs,FaReact,FaGithub,FaGit,FaNodeJs, FaWordpress} from 'react-icons/fa';
 import {DiMongodb} from 'react-icons/di'
-import {SiMysql,SiMicrosoftsqlserver,SiElectron,SiFlutter,SiGraphql,} from 'react-icons/si'
+import {SiMysql,SiMicrosoftsqlserver,SiFlutter,SiGraphql,SiNestjs} from 'react-icons/si'
 import {FcNext} from 'react-icons/fc'
 import {ReactSVG} from 'react-svg'
 import nestjs from '../../images/nestjs.svg'
@@ -47,8 +47,8 @@ Mes compétences
             <SkillName>Github</SkillName>
         </Skill>
         <Skill>
-        <SkillImage color='green'><FaNode/></SkillImage>
-            <SkillName>Node</SkillName>
+        <SkillImage color='#0da7c0'><FaReact/></SkillImage>
+            <SkillName>React Native</SkillName>
         </Skill>
         <Skill>
         <SkillImage color='gray'><FaGit/></SkillImage>
@@ -71,8 +71,8 @@ Mes compétences
             <SkillName>NodeJs</SkillName>
         </Skill>
         <Skill>
-        <SkillImage color='#0da7c0'><SiElectron/></SkillImage>
-            <SkillName>ElectronJs</SkillName>
+        <SkillImage color='#0084f8'><FaWordpress/></SkillImage>
+            <SkillName>WordPress</SkillName>
         </Skill>
         <Skill>
         <SkillImage color='#06bcf4'><SiFlutter/></SkillImage>
@@ -87,7 +87,7 @@ Mes compétences
             <SkillName>NextJs</SkillName>
         </Skill>
         <Skill>
-        <SkillImage color='#06bcf4'></SkillImage>
+        <SkillImage color='#ff0000'><SiNestjs/></SkillImage>
             <SkillName>NestJs</SkillName>
         </Skill>
         <Skill>
