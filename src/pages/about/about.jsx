@@ -22,6 +22,15 @@ import Link from "@mui/material/Link";
 import {FaFacebookSquare,FaWhatsapp,FaLinkedinIn,FaGithubSquare} from 'react-icons/fa';
 
 const About = () => {
+
+  // React.useEffect(() =>{
+  //   fetch(
+  //     "https://lesouverainlibre.info/wp-json/wp/v2/posts/?_slug=actualite")
+  //                 .then((res) => res.json())
+  //                 .then((json) => {
+  //                     console.log(json);
+  //                 })
+  // })
   return (
     <div id="about">
 <AboutContainer>
