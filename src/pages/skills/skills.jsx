@@ -27,7 +27,6 @@ import { DiMongodb } from "react-icons/di";
 import {
   SiMysql,
   SiMicrosoftsqlserver,
-  SiFlutter,
   SiGraphql,
   SiNestjs,
   SiExpress,

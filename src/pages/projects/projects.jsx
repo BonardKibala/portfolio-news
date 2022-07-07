@@ -9,7 +9,8 @@ import kd from "../../images/kd.png";
 import bisofilm from "../../images/bisofilm.png";
 import env from "../../images/env.png";
 import portfolio from "../../images/portfolio.png";
-import rec from "../../images/rec.png";
+import ref from "../../images/ref.png";
+import souv from "../../images/souv.png";
 
 const projectsTab = [
   {
@@ -17,7 +18,7 @@ const projectsTab = [
     image: kd,
     createdAt: "mars 14, 2021",
     description:
-      "Ce projet consistait à la réprodution du site internet de l'entreprise numérique basé à Kinshasa, Kinshasa Digital. Un grand projet qui m'a vallu la satisfaction du client.",
+      "Ce projet consistait à la réprodution du site internet de l'entreprise numérique basé à Kinshasa, Kinshasa Digital. Un grand projet qui m'a vallu la satisfaction du client dans le cadre de l'apprentisage",
     lien: "https://confident-feynman-185740.netlify.app/",
   },
   {
@@ -25,7 +26,7 @@ const projectsTab = [
     image: bisofilm,
     createdAt: "mars 14, 2021",
     description:
-      "BisoFilm est le clone d'un site Allociné dont l'onbject est de mettre à la disposition du public tous les films qui les interréssent, leurs détails, les acteurs ainsi que leurs biographies.",
+      "BisoFilm est le clone d'un site Allociné dont l'onbject est de mettre à la disposition du public tous les films qui les interréssent, leurs détails, les acteurs ainsi que leurs biographies dans le cadre de l'apprentissage",
     lien: "https://bonard-kibala-allocine.netlify.app/",
   },
   {
@@ -45,21 +46,22 @@ const projectsTab = [
     lien: "https://bonard-portofolio.netlify.app/",
   },
   {
-    title: "Gestion de la population",
-    image: rec,
-    createdAt: "mars 14, 2021",
+    title: "Le souverain libre",
+    image: souv,
+    createdAt: "mars 15, 2022",
     description:
-      "Cette application a été réalisé dans le cadre de mon travail de Fin du cycle de graduat à l'université de kinshasa au département de mathématiques et informatioque/faulté de sciences.",
-    lien: "#",
+      "Site média en ligne de la presse écrite LeSouverainLibre basée en Bakavu à l'Est de la République Démocratique du Congo",
+    lien: "https://lesouverainlibre.info/",
   },
   {
-    title: "Portofolio Bonard Kibala",
-    image: portfolio,
-    createdAt: "mars 14, 2021",
+    title: "LaRéférencePlus",
+    image: ref,
+    createdAt: "june 25, 2022",
     description:
-      "C'est mon site personnel(portfolio ou site vitrine) exposé sur la toile mondiale (Internet) pour faire part de mes compétences (hardskills et softskills) et réalisations",
-    lien: "https://bonard-portofolio.netlify.app/",
+      "Application mobile pour les actualités de la presse écrite LaRéférence baasée à kinshasa",
+    lien: "#",
   },
+
 ];
 
 const Project = () => {
