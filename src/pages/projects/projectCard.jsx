@@ -36,7 +36,7 @@ const ProjectCard = ({ title, image, createdAt, description, lien }) => {
           color="text.primary"
           sx={{ textAlign: "justify" }}
         >
-          {description}
+          <strong>{description}</strong>
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
