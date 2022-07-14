@@ -1,5 +1,5 @@
 import React from "react";
-import bnrd from "../../images/bnrd.png";
+import bnrd from "../../images/bnrd4.webp";
 import cv from "../../files/kibala-bonard-Cv.pdf";
 import {
   Homecard,
@@ -40,7 +40,7 @@ const Home = () => {
             </div>
 
             <Btn>
-              <BtnLink href={`${cv}`}>Voir mon CV</BtnLink>
+              <BtnLink href={`${cv}`}>Mon CV</BtnLink>
             </Btn>
           </HomeDetail>
         </HomeDetailContainer>
@@ -50,7 +50,7 @@ const Home = () => {
             <HomeCardImage src={bnrd} alt="bonard image" />
           </Homecard>
           <CardText>
-            <H1CardText> Bonard Kibala Inkumbwa</H1CardText>
+            <H1CardText> Bonard KIBALA INKUMBWA</H1CardText>
           </CardText>
         </HomecardContainer>
       </HomeContainer>
