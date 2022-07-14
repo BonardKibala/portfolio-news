@@ -30,7 +30,7 @@ import {
   SiGraphql,
   SiNestjs,
   SiExpress,
-  SiRedux,
+  SiPhp,
 } from "react-icons/si";
 import { FcNext } from "react-icons/fc";
 
@@ -128,9 +128,9 @@ const Skills = () => {
         </Skill> */}
             <Skill>
               <SkillImage color="#06bcf4">
-                <SiRedux />
+                <SiPhp />
               </SkillImage>
-              <SkillName>Redux toolkit</SkillName>
+              <SkillName>Php</SkillName>
             </Skill>
 
             <Skill>
